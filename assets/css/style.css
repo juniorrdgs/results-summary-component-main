@@ -283,4 +283,8 @@ button {
         margin: 1.6rem 1.6rem 1.6rem 0.5rem;
         width: 95%;
     }
+
+    button:hover {
+        background: linear-gradient(to bottom, var(--lightSlateBlue-background), var(--lightRoyalBlue-background));
+    }
 }
